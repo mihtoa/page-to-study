@@ -1,20 +1,29 @@
+Color Pallete {
+color: #2b2525;
+color: #f2e5cb;
+color: #ff5845;
+}
+
 body {
-    background-color: chocolate;
+    background-color: #ff5845;
+    color: #f2e5cb;
 }
 .demo-card-wide.mdl-card {
   width: 512px;
 }
 .demo-card-wide > .mdl-card__title {
-  color: #fff;
+  color: #f2e5cb;
   height: 176px;
-  background: url('../assets/demos/welcome_card.jpg') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
-  color: #fff;
+  color: #f2e5cb;
 }
 .mdl-cell p {
     text-align: center;
 }
 h6 {
     text-align: center;
+}
+.mdl-mega-footer {
+    background-color: #2b2525;
 }
