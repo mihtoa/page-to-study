@@ -1,12 +1,16 @@
 Color Pallete {
-color: #2b2525;
-color: #f2e5cb;
-color: #ff5845;
+  color: #2b2525;
+  color: #f2e5cb;
+  color: #ff5845;
 }
 
-body {
-    background-color: #ff5845;
-    color: #f2e5cb;
+html {
+  background: #f2e5cb;
+}
+
+body, {
+  background-color: #f2e5cb;
+  color: #ff5845;
 }
 .demo-card-wide.mdl-card {
   width: 512px;
@@ -19,11 +23,31 @@ body {
   color: #f2e5cb;
 }
 .mdl-cell p {
-    text-align: center;
+  text-align: center;
 }
-h6 {
-    text-align: center;
+.mdl-cell img {
+  display: block;
+  margin: auto;
 }
 .mdl-mega-footer {
-    background-color: #2b2525;
+  background-color: #2b2525;
+}
+.mdl-layout__header {
+  color: #ff5845;
+}
+.mdl-navigation__link {
+  color: #ff5845!important;
+}
+.mdl-layout__drawer-button {
+  color: #ff5845;
+}
+#logo {
+  width:110px;
+  margin-top:-12px;
+}
+.list-item {
+    width: 300px;
+}
+.mdl-layout__content {
+  padding: 16px 40px;
 }
