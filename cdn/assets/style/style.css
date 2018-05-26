@@ -1,0 +1,71 @@
+Color Pallete {
+  color: #2b2525;
+  color: #f2e5cb;
+  color: #ff5845; }
+
+html {
+  background: #f2e5cb; }
+
+body {
+  background-color: #f2e5cb;
+  color: #ff5845; }
+
+.demo-card-wide.mdl-card {
+  width: 512px; }
+
+.demo-card-wide > .mdl-card__title {
+  color: #f2e5cb;
+  height: 176px; }
+
+.demo-card-wide > .mdl-card__menu {
+  color: #f2e5cb; }
+
+.mdl-cell p {
+  text-align: center; }
+
+.mdl-cell img {
+  display: block;
+  margin: auto; }
+
+.mdl-mega-footer {
+  background-color: #2b2525; }
+
+.mdl-layout__header {
+  color: #ff5845; }
+
+.mdl-navigation__link {
+  color: #ff5845 !important; }
+
+.mdl-layout__drawer-button {
+  color: #ff5845; }
+
+#logo {
+  margin-top: -5px; }
+
+.list-item {
+  width: 300px; }
+
+.mdl-layout__content {
+  padding: 16px 40px; }
+
+.mdl-layout__header--transparent.mdl-layout__header--transparent {
+  background-color: white; }
+
+#foto {
+  float: right; }
+
+#web-design {
+  background-color: #ff5845;
+  width: 100%;
+  height: auto;
+  padding: 60px 0; }
+
+#desenvolvimento {
+  background-color: #f2e5cb;
+  width: 100%;
+  height: auto;
+  padding: 60px 0; }
+
+.images-home {
+  width: initial !important;
+  height: initial !important; }
