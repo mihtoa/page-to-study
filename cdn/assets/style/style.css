@@ -51,8 +51,15 @@ body {
 .mdl-layout__header--transparent.mdl-layout__header--transparent {
   background-color: white; }
 
-#foto {
-  float: right; }
+#box-right {
+  float: right;
+  position: relative;
+  text-align: center;
+  margin-top: -100px; }
+  #box-right #foto {
+    -webkit-filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.3)); }
+  #box-right p {
+    line-height: 8px; }
 
 #web-design {
   background-color: #ff5845;
@@ -69,3 +76,35 @@ body {
 .images-home {
   width: initial !important;
   height: initial !important; }
+
+.hr {
+  margin-bottom: 40px;
+  width: 150px;
+  border-bottom: 5px solid #ff5845; }
+
+.texto-cv p {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 10px 0; }
+
+.texto-cv .title {
+  color: #2b2525;
+  font-weight: bold;
+  font-size: 18px; }
+
+.texto-cv i {
+  color: #ff5845;
+  font-size: 20px;
+  margin-right: 12px; }
+
+.mdl-mega-footer {
+  background-image: url("/cdn/assets/img/tweed.png");
+  background-blend-mode: overlay; }
+
+.cv {
+  background-image: url("/cdn/assets/img/papper.png");
+  background-blend-mode: overlay; }
+
+hr {
+  border-top: 1px solid #ff5845; }
