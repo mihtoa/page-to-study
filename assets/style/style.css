@@ -114,21 +114,26 @@ hr {
   height: 100%; }
 
 .mdl-mini-footer {
-  padding: 30px 40px; }
+  padding: 10px 40px; }
 
 .mdl-tabs__panel {
   padding: 16px 40px; }
 
 .mdl-tabs__tab-bar {
   border-bottom: initial;
-  width: 330px;
-  position: absolute;
-  right: 40px;
-  top: 16px; }
+  margin: auto 0px auto auto; }
 
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
-  background: #ff5845; }
+  background: initial; }
 
-.mdl-layout {
-  display: block;
-  position: initial; }
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+  color: #ff5845; }
+
+.mdl-cell p {
+  text-align: justify; }
+
+.a {
+  color: #ff5845 !important; }
+
+.mdl-tabs__tab {
+  color: initial; }

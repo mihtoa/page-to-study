@@ -13,83 +13,110 @@
 </head>
 <body>
   <div class="mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">
-            <img id="logo" src="assets/img/logo.png" />
-          </a>
-        </span>
-        <div class="mdl-layout-spacer">
-        </div>
-      </div>
-    </header>
     <div class="mdl-layout">
       <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
-        <div class="mdl-tabs__tab-bar">
-          <a href="#home" class="mdl-tabs__tab is-active">Home</a>
-          <a href="#sobre" class="mdl-tabs__tab">Sobre</a>
-          <a href="#contato" class="mdl-tabs__tab">Contato</a>
-        </div>
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">
+              <img id="logo" src="assets/img/logo.png" />
+              </a>
+            </span>
+            <div class="mdl-tabs__tab-bar">
+              <a href="#home" class="mdl-tabs__tab is-active">Home</a>
+              <a href="#sobre" class="mdl-tabs__tab">Sobre</a>
+              <a href="#contato" class="mdl-tabs__tab">Contato</a>
+            </div>
+          </div>
+        </header>
         <div class="mdl-tabs__panel is-active" id="home">
-          <ul>
-            <!--
-            <li>Eddard</li>
-            <li>Catelyn</li>
-            <li>Robb</li>
-            <li>Sansa</li>
-            <li>Brandon</li>
-            <li>Arya</li>
-            <li>Rickon</li>
-            -->
-          </ul>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis odio vitae tincidunt convallis. Cras suscipit sed tellus et semper. Fusce vel ex quam. Mauris fermentum in est in volutpat. Pellentesque nunc augue, finibus vel finibus vel, feugiat vel nisi. Praesent tortor dui, posuere sed leo non, blandit feugiat justo. Ut rutrum, ligula eu eleifend dapibus, augue nunc hendrerit turpis, volutpat dictum purus augue ut lacus. Donec eu elementum erat. Aliquam tincidunt urna ut urna tincidunt, eget malesuada nunc posuere. Ut in blandit justo. Proin hendrerit a mauris eu fringilla. Pellentesque eget orci scelerisque, tempor lorem et, ullamcorper risus. Vivamus in magna hendrerit, tempus leo at, aliquam felis. Praesent fermentum lorem ut nulla faucibus maximus.
+              </p>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis odio vitae tincidunt convallis. Cras suscipit sed tellus et semper. Fusce vel ex quam. Mauris fermentum in est in volutpat. Pellentesque nunc augue, finibus vel finibus vel, feugiat vel nisi. Praesent tortor dui, posuere sed leo non, blandit feugiat justo. Ut rutrum, ligula eu eleifend dapibus, augue nunc hendrerit turpis, volutpat dictum purus augue ut lacus. Donec eu elementum erat. Aliquam tincidunt urna ut urna tincidunt, eget malesuada nunc posuere. Ut in blandit justo. Proin hendrerit a mauris eu fringilla. Pellentesque eget orci scelerisque, tempor lorem et, ullamcorper risus. Vivamus in magna hendrerit, tempus leo at, aliquam felis. Praesent fermentum lorem ut nulla faucibus maximus.
+              </p>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis odio vitae tincidunt convallis. Cras suscipit sed tellus et semper. Fusce vel ex quam. Mauris fermentum in est in volutpat. Pellentesque nunc augue, finibus vel finibus vel, feugiat vel nisi. Praesent tortor dui, posuere sed leo non, blandit feugiat justo. Ut rutrum, ligula eu eleifend dapibus, augue nunc hendrerit turpis, volutpat dictum purus augue ut lacus. Donec eu elementum erat. Aliquam tincidunt urna ut urna tincidunt, eget malesuada nunc posuere. Ut in blandit justo. Proin hendrerit a mauris eu fringilla. Pellentesque eget orci scelerisque, tempor lorem et, ullamcorper risus. Vivamus in magna hendrerit, tempus leo at, aliquam felis. Praesent fermentum lorem ut nulla faucibus maximus.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="mdl-tabs__panel" id="sobre">
-          <div id="box-left">
-            <img id="foto" src="assets/img/foto.png" />
-            <p></p>
-            <h5>● Milene Toazza ●</h5>
-            <hr />
-            <p>◇ Desenvolvedora Front-end ◇</p>
-            <p>◇ Diretora de Arte ◇</p>
-            <hr />
-            <p>Porto Alegre</p>
-            <p>23 anos</p>
-          </div>
-          <div id="box-right">
-            <h1>Olá mundo!</h1>
-            <div class="hr"></div>
-            <div class="texto-cv">
-              <span class="title"><i class="mdi mdi-certificate"></i>Formação</span>
+          <div class="content">
+            <div id="box-left">
+              <img id="foto" src="assets/img/foto.png" />
               <p></p>
-              <!--p>Bacharelado em Publicidade e Propaganda - UniRitter (2013-2017)</p-->
-              <span class="title"><i class="mdi mdi-certificate"></i>Cursos Extracurriculares</span>
-              <p></p>
-              <!--p>Workshop Práticas em Social Media 8h - Plugcitários (2015)</p>
-              <p>Adobe Illustrator 35h - Data Lógica (2015)</p>
-              <p>Adobe InDesign 30h - Data Lógica (2015)</p>
-              <p>Adobe Photoshop Avançado 35h - Data Lógica (2015)</p>
-              <p>Informática e Técnicas Administrativas - QI Escolas e Faculdades (mar/2009-jun/2010)</p-->
-              <span class="title"><i class="mdi mdi-certificate"></i>Cursos Online</span>
-              <p></p>
-              <span class="title"><i class="mdi mdi-certificate"></i>Experiências</span>
-              <p></p>
-              <span class="title"><i class="mdi mdi-certificate"></i>Habilidades</span>
-              <p></p>
-              <span class="title"><i class="mdi mdi-certificate"></i>Idiomas</span>
-              <p></p>
+              <h5>● Milene Toazza ●</h5>
+              <hr />
+              <p>◇ Desenvolvedora Front-end ◇</p>
+              <p>◇ Diretora de Arte ◇</p>
+              <hr />
+              <p>Porto Alegre</p>
+              <p>23 anos</p>
+            </div>
+            <div id="box-right">
+              <h1>Olá mundo!</h1>
+              <div class="hr"></div>
+              <div class="texto-cv">
+                <span class="title">
+                  <i class="mdi mdi-certificate"></i>Title</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis odio vitae tincidunt convallis.
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div class="mdl-tabs__panel" id="contato">
-          <ul>
-            <!--li>Tywin</li>
-            <li>Cersei</li>
-            <li>Jamie</li>
-            <li>Tyrion</li-->
-          </ul>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis odio vitae tincidunt convallis. Cras suscipit sed
+                tellus et semper. Fusce vel ex quam. Mauris fermentum in est in volutpat. Pellentesque nunc augue, finibus vel finibus
+                vel, feugiat vel nisi. Praesent tortor dui, posuere sed leo non, blandit feugiat justo. Ut rutrum, ligula eu eleifend
+                dapibus, augue nunc hendrerit turpis, volutpat dictum purus augue ut lacus. Donec eu elementum erat. Aliquam tincidunt
+                urna ut urna tincidunt, eget malesuada nunc posuere. Ut in blandit justo. Proin hendrerit a mauris eu fringilla. Pellentesque
+                eget orci scelerisque, tempor lorem et, ullamcorper risus. Vivamus in magna hendrerit, tempus leo at, aliquam felis.
+                Praesent fermentum lorem ut nulla faucibus maximus.
+              </p>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis odio vitae tincidunt convallis. Cras suscipit sed
+                tellus et semper. Fusce vel ex quam. Mauris fermentum in est in volutpat. Pellentesque nunc augue, finibus vel finibus
+                vel, feugiat vel nisi. Praesent tortor dui, posuere sed leo non, blandit feugiat justo. Ut rutrum, ligula eu eleifend
+                dapibus, augue nunc hendrerit turpis, volutpat dictum purus augue ut lacus. Donec eu elementum erat. Aliquam tincidunt
+                urna ut urna tincidunt, eget malesuada nunc posuere. Ut in blandit justo. Proin hendrerit a mauris eu fringilla. Pellentesque
+                eget orci scelerisque, tempor lorem et, ullamcorper risus. Vivamus in magna hendrerit, tempus leo at, aliquam felis.
+                Praesent fermentum lorem ut nulla faucibus maximus.
+              </p>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis odio vitae tincidunt convallis. Cras suscipit sed
+                tellus et semper. Fusce vel ex quam. Mauris fermentum in est in volutpat. Pellentesque nunc augue, finibus vel finibus
+                vel, feugiat vel nisi. Praesent tortor dui, posuere sed leo non, blandit feugiat justo. Ut rutrum, ligula eu eleifend
+                dapibus, augue nunc hendrerit turpis, volutpat dictum purus augue ut lacus. Donec eu elementum erat. Aliquam tincidunt
+                urna ut urna tincidunt, eget malesuada nunc posuere. Ut in blandit justo. Proin hendrerit a mauris eu fringilla. Pellentesque
+                eget orci scelerisque, tempor lorem et, ullamcorper risus. Vivamus in magna hendrerit, tempus leo at, aliquam felis.
+                Praesent fermentum lorem ut nulla faucibus maximus.
+              </p>
+            </div>
+          </div>
         </div>
-
       </div>
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">
