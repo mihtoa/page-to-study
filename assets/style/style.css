@@ -48,7 +48,7 @@ body {
 #box-left {
   float: left;
   margin: 5% 2%;
-  position: fixed;
+  position: relative;
   text-align: center; }
   #box-left #foto {
     -webkit-filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.3)); }
@@ -56,8 +56,9 @@ body {
     line-height: 8px; }
 
 #box-right {
-  float: right;
-  width: 78%; }
+  float: left;
+  margin-top: 3.5%;
+  margin-left: 3%; }
 
 #web-design {
   background-color: #ff5845;
@@ -120,11 +121,10 @@ hr {
 
 .mdl-tabs__tab-bar {
   border-bottom: initial;
-  border-bottom: initial;
   width: 330px;
   position: absolute;
   right: 40px;
-  top: 1.72%; }
+  top: 16px; }
 
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
   background: #ff5845; }
