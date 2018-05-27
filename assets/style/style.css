@@ -10,15 +10,12 @@ body {
   background-color: #f2e5cb;
   color: #ff5845; }
 
-.demo-card-wide.mdl-card {
-  width: 512px; }
+.mdl-layout__header {
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1); }
 
-.demo-card-wide > .mdl-card__title {
-  color: #f2e5cb;
-  height: 176px; }
-
-.demo-card-wide > .mdl-card__menu {
-  color: #f2e5cb; }
+.mdl-layout__header-row {
+  padding: 0 40px; }
 
 .mdl-cell p {
   text-align: center; }
@@ -27,7 +24,7 @@ body {
   display: block;
   margin: auto; }
 
-.mdl-mega-footer {
+.mdl-mini-footer {
   background-color: #2b2525; }
 
 .mdl-layout__header {
@@ -39,9 +36,6 @@ body {
 .mdl-layout__drawer-button {
   color: #ff5845; }
 
-#logo {
-  margin-top: -5px; }
-
 .list-item {
   width: 300px; }
 
@@ -51,15 +45,19 @@ body {
 .mdl-layout__header--transparent.mdl-layout__header--transparent {
   background-color: white; }
 
+#box-left {
+  float: left;
+  margin: 5% 2%;
+  position: fixed;
+  text-align: center; }
+  #box-left #foto {
+    -webkit-filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.3)); }
+  #box-left p {
+    line-height: 8px; }
+
 #box-right {
   float: right;
-  position: relative;
-  text-align: center;
-  margin-top: -100px; }
-  #box-right #foto {
-    -webkit-filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.3)); }
-  #box-right p {
-    line-height: 8px; }
+  width: 78%; }
 
 #web-design {
   background-color: #ff5845;
@@ -78,9 +76,10 @@ body {
   height: initial !important; }
 
 .hr {
-  margin-bottom: 40px;
   width: 150px;
-  border-bottom: 5px solid #ff5845; }
+  height: 5px;
+  margin-bottom: 50px;
+  background: #ff5845; }
 
 .texto-cv p {
   font-family: sans-serif;
@@ -98,7 +97,7 @@ body {
   font-size: 20px;
   margin-right: 12px; }
 
-.mdl-mega-footer {
+.mdl-mini-footer {
   background-image: url("/cdn/assets/img/tweed.png");
   background-blend-mode: overlay; }
 
@@ -108,3 +107,28 @@ body {
 
 hr {
   border-top: 1px solid #ff5845; }
+
+#100 {
+  width: 100%;
+  height: 100%; }
+
+.mdl-mini-footer {
+  padding: 30px 40px; }
+
+.mdl-tabs__panel {
+  padding: 16px 40px; }
+
+.mdl-tabs__tab-bar {
+  border-bottom: initial;
+  border-bottom: initial;
+  width: 330px;
+  position: absolute;
+  right: 40px;
+  top: 1.72%; }
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  background: #ff5845; }
+
+.mdl-layout {
+  display: block;
+  position: initial; }
